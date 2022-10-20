@@ -1,0 +1,56 @@
+/* Pagination Main Container */
+
+.pagination-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  margin-block: 30px;
+}
+
+/* Pagination Main Container */
+
+/* Pagination Side Arrows */
+
+.pagination-side-buttons {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+
+/* Pagination Side Arrows */
+
+/* Pagination Main Button */
+
+.pagination-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  margin-inline: 5px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+  color: black;
+  user-select: none;
+}
+
+/* Pagination Main Button */
+
+/* Additional CSS */
+
+.cursor {
+  cursor: pointer;
+}
+
+/* Additional CSS */
+
+/* Pagination Active Button */
+
+.active {
+  background-color: black;
+  color: white;
+}
+
+/* Pagination Active Button */
